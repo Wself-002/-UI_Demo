@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "Home",
+  "usingComponents": {
+    "ant-button": "antd-mini/es/Button/index"
+  }
+}

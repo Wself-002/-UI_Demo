@@ -1,0 +1,11 @@
+{
+  "defaultTitle": "IndexBar",
+  "pullRefresh": "NO",
+  "showProgress": "NO",
+  "allowsBounceVertical": "NO",
+  "usingComponents": {
+    "index-bar": "antd-mini/es/IndexBar/index",
+    "list": "antd-mini/es/List/index",
+    "list-item": "antd-mini/es/List/ListItem/index"
+  }
+}

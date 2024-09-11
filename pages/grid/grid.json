@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "Grid",
+  "usingComponents": {
+    "ant-container": "antd-mini/es/Container/index",
+    "ant-grid": "antd-mini/es/Grid/index",
+    "ant-badge": "antd-mini/es/Badge/index"
+  }
+}

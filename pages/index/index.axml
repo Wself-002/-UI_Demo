@@ -1,0 +1,15 @@
+
+<view>
+  <ant-button
+    type="primary"
+    onTap="handleTap"
+    a:for="{{pageData}}"
+    key="{{index}}"
+    data-name={{item.name}}
+    data-id={{item.id}}
+    data-src={{item.src}}
+  >
+    {{item.name}}
+  </ant-button>
+</view>
+

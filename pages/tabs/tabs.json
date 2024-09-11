@@ -1,0 +1,9 @@
+{
+  "defaultTitle": "Tabs",
+  "usingComponents": {
+    "container": "antd-mini/es/Container/index",
+    "tabs": "antd-mini/es/Tabs/index",
+    "badge": "antd-mini/es/Badge/index",
+    "icon": "antd-mini/es/Icon/index"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/button/button",
+    "pages/my/my",
+    "pages/icon/icon",
+    "pages/tabs/tabs",
+    "pages/grid/grid",
+    "pages/guideTour/guideTour",
+    "pages/IndexBar/IndexBar",
+    "pages/progress/progress",
+    "pages/circleProgress/circleProgress",
+    "pages/steps/steps",
+    "pages/swipeAction/swipeAction"
+  ],
+  "behavior": {
+    "requestReferrerStrategy": "page",
+    "requestReferrerStyle": "full",
+    "requestDefaultEnableCookie": true,
+    "connectSocketDefaultMultiple": true
+  },
+  "window": {
+    "defaultTitle": "Demo"
+  },
+  "tabBar": {
+    "textColor": "#dddddd",
+    "selectedColor": "#49a9ee",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "./pages/assets/images/home.png",
+        "activeIcon": "./pages/assets/images/active_home.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "name": "我的",
+        "icon": "./pages/assets/images/my.png",
+        "activeIcon": "./pages/assets/images/active_my.png"
+      }
+    ]
+  }
+}

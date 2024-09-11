@@ -1,0 +1,22 @@
+Page({
+  data:{
+    pageData:[
+      {name:'按钮组件',id:1,src:'/pages/button/button'},
+      {name:'图标组件',id:2,src:'/pages/icon/icon'},
+      {name:'Tabs组件',id:3,src:'/pages/tabs/tabs'},
+      {name:'grid组件',id:4,src:'/pages/grid/grid'},
+      {name:'新手引导组件',id:5,src:'/pages/guideTour/guideTour'},
+      {name:'indexBar组件',id:6,src:'/pages/IndexBar/IndexBar'},
+      {name:'进度条组件',id:7,src:'/pages/progress/progress'},
+      {name:'圆形进度条组件',id:8,src:'/pages/circleProgress/circleProgress'},
+      {name:'步骤条组件',id:9,src:'/pages/steps/steps'},
+      {name:'滑动组件',id:10,src:'/pages/swipeAction/swipeAction'},
+    ]
+  },
+  handleTap(e){
+    console.log('按钮点击:',e)
+    my.navigateTo({
+      url: e.currentTarget.dataset.src
+    })
+  }
+});
